@@ -33,15 +33,13 @@ class Thumbnail extends React.Component {
 
         </div> */}
         <img
-          height="70"
-          width="70"
           alt='review-thumbnail'
           className={styles.smallImg}
           src={`https://cdn.filestackcontent.com/AWs7LcKPWTNKPac9vsWCQz/resize=width:75/${this.props.source}`}
           onClick={this.handleClick}
         />
         {modal}
-      </div>
+      </div>›
     );
   }
 }

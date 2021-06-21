@@ -41,7 +41,7 @@ class Thumbnail extends React.Component {
           onClick={this.handleClick}
         />
         {modal}
-      </div>›
+      </div>
     );
   }
 }
